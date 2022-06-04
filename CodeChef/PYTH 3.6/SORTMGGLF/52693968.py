@@ -1,0 +1,1 @@
+l=lambda:map(int,input().split());input();print(*[*(zip(*sorted(zip(*[l(),l()][::-1]))))][1])
