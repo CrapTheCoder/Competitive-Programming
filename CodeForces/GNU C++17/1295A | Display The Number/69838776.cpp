@@ -1,2 +1,0 @@
-#include<bits/stdc++.h>
-using namespace std;typedef long long int ll;main(){ll test; cin >> test; while(test--){ ll n; cin >> n; if(n%2 == 0){ while(n > 1){ cout << "1"; n -= 2; } } else{ cout << "7"; n -= 3; while(n > 1) { cout << "1"; n -= 2; }} cout << "\n";};return 0;}
